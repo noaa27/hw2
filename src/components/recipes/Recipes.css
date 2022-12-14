@@ -1,0 +1,25 @@
+@media /*(min-width: 320px) and*/ (max-width: 480px){
+    .Recipes {
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 2%;
+        grid-gap: 10px;
+        gap: 10px;
+        justify-content: center;
+}}
+ @media (min-width: 481px) and (max-width: 767px){ 
+.Recipes {
+    display: grid;
+    grid-template-columns: 300px;
+    padding: 2%;
+    grid-gap: 10px;
+    gap: 10px;
+    justify-content: center;
+}}
+@media (min-width: 768px){ 
+.Recipes {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 2%;
+    justify-content: center;
+}}

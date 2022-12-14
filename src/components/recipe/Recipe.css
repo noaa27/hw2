@@ -1,0 +1,32 @@
+
+.Recipe {
+    border: solid 1px black;
+    
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width:18rem;
+}
+
+img{
+    /*width: 30%;*/
+    height: 200px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    flex-shrink: 0;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.textt{
+    font-weight: bold;
+}
